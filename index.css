@@ -1,0 +1,34 @@
+body {
+  margin: 50px;
+  background-image: linear-gradient(
+    109.6deg,
+    rgba(5, 84, 94, 1) 16%,
+    #bbb 91.1%
+  );
+}
+#word {
+  display: flex;
+  flex-direction: row;
+}
+.text {
+  border-bottom: 1px solid white;
+  width: 20px;
+  margin: 5px;
+  height: 20px;
+}
+#lives {
+  display: flex;
+}
+.hide {
+  display: none;
+}
+#chance1,
+#chance2,
+#chance3,
+#chance4,
+#chance5 {
+  display: flex;
+  color: red;
+  width: 20px;
+  height: 20px;
+}
